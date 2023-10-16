@@ -25,10 +25,12 @@ public class principal {
 
     public static void menu() {
         int opc = 0;
+        System.out.println("HOLA SOY ANDRES Y ESTOY ES DINEY CHANNEL");
+        System.out.println("antes de comenzar a hacer cualquier cosa tienes que crear una figura");
         do {
             
             try {
-                System.out.println("HOLA SOY ANDRES Y ESTOY ES DINEY CHANNEL");
+                
             System.out.println("BIENVENIDO QUE DESEAS HACER");
             
             
