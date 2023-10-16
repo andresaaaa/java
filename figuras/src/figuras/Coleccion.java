@@ -69,10 +69,10 @@ public class Coleccion {
 
     public String conCapa() {
         String a = "estos son los superheroes con capa \n------------------\n";
-        for (figura fig : lista_figura) {
-            if (fig.getSuperheroe().iscapa()) {
-                a = fig.getSuperheroe() + "\n"  ;
-                return a;
+        for (int i = 0; i < lista_figura.size(); i++) {
+            if (lista_figura.get(i).getSuperheroe().iscapa()== true) {
+                a += lista_figura.get(i) + "\n"  ;
+                
             } 
             
         }

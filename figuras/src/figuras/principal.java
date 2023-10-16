@@ -77,8 +77,9 @@ public class principal {
                     throw new AssertionError();
             }
             } catch (Exception e) {
-                System.out.println("primero crea una figura antes para poder interactuar con todas las opciones del menu");
+                System.out.println("ERROR");
                 System.out.println("\n -------------------------------------------------------------------------------------");
+                break;
             }
             
 
@@ -131,7 +132,7 @@ public class principal {
 
         c1.añadir_figura(f1);
         System.out.println("esta es tu figura");
-//                            System.out.println(f1.toString());
+
         System.out.println(c0.toString());
 
         superHeroe s2 = new superHeroe("superman");
